@@ -51,7 +51,7 @@
   }
   
   body {
-    background-color: #342d34;
+    background-color: #0b9ec7;
    color: white;
     font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
     font-size: var(--bodyFontSize);
@@ -142,9 +142,9 @@
   
     --loginLabelBackgroundColor: #363b41;
   
-    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitBackgroundColor: #4c61ea;
     --loginSubmitColor: #eee;
-    --loginSubmitHoverBackgroundColor: #d44179;
+    --loginSubmitHoverBackgroundColor: #4c61ea;
   }
   
   .login {
@@ -177,7 +177,7 @@
   }
   
   input[type="submit"] {
-  background-color: #d75821;
+  background-color: #0c2396;
   color: var(--loginSubmitColor);
   font-weight: 700;
   text-transform: uppercase;
@@ -185,15 +185,13 @@
   
   input[type="submit"]:focus,
   input[type="submit"]:hover {
-    background-color: #d75821;
+    background-color: #2173d7;
   }
-  
   
   p {
     margin-block: 1.5rem;
     text-align: center;
   }
-  
   
   img
   {
